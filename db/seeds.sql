@@ -1,3 +1,4 @@
+USE burgers_db;
 INSERT INTO burgers (burger_name, devoured) 
 VALUES ("Cowboy Burger", false), 
 ("Beefy Cheese Burger", false),

@@ -1,7 +1,12 @@
-CREATE TABLE burgers (
-  id int AUTO_INCREMENT NOT NULL,
-  burger_name varchar(255) NOT NULL,
-  createdAt TIMESTAMP NOT NULL,
-  devoured boolean,
-  PRIMARY KEY(id)
+-- Create the database burgers_db.
+CREATE DATABASE burgers_db;
+USE burgers_db;
+
+-- Create the table burgers.
+CREATE TABLE burgers
+(
+    id INT NOT NULL AUTO_INCREMENT,
+    burger_name VARCHAR(50) NOT NULL,
+    devoured BOOLEAN DEFAULT false,
+    PRIMARY KEY (id)
 );

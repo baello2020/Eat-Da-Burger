@@ -17,7 +17,7 @@ if (process.env.JAWSDB_URL) {
     // Username
     user: "root",
     // Password
-    password: "Cheeseme1",
+    password: "ML1515Letmein!",
     // DataBase
     database: "burgers_db"
   });
