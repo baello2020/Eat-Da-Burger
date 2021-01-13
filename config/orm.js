@@ -31,15 +31,6 @@ const orm = {
             cb(result);
         })
     }
-    // Action Delete
-    // // Not working
-    // delete: function (tableName, cb) {
-    //     const queryString = "DELETE FROM" + tableName + ";";
-    //     connection.query(queryString, function (err, result) {
-    //         if (err) throw err;
-    //         cb(result);
-    //     })
-    // },
 
 };
 

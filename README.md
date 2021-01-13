@@ -1,30 +1,37 @@
-## Employee-Tracker
+## Eat-Da-Burger
 
 - [Description](#Description)
 - [Installations](#Installations)
 - [Licence](#Licence)
 - [Contributing](#Contributing)
-- [User Story](#User-Story)
 - [Demo Video](#Project-Demo-Video)
 - [Credits](#Credits)
 - [Questions](#Questions)
 
 ## Description
+* This is a restaurant app that lets users add the names of burgers and eat them! The app reads the database to get all the available burgers in the burger table in order to display them on the page.
 
-This app is a Content Management System, in this app one can create employees, departments and roles. The app used mysql to store all tha the data. The app ask for the necessary data to create all employees, departments, and employees. It can also modify existing data based on the prebuilt actions it has.
+* Whenever a user submits a burger's name, the app will display the burger on the left side of the page, waiting to be devoured. - This inserts a new burger to the database.
+
+* When the user clicks the devour button, the burger will move to the right side of the page. - This updates a boolean value of the selected burger in the database.
+
+* Once the delete button is clicked, then the burger will be deleted from the page as well as the database.
+
+* The app uses the MVC design model.
 
 ## Installations
 
+* nmp init -y
 * nmp i inquirer 
 * npm i mysql
+* nmp i express
+* nmp i express-handlebars
+* nmp i require-stack
 
 ## Contributing
 A work in progress. And the possibilities are endless. <br> Please feel free to submit any code updates for review and acceptance.
-* ['Employee Tracker - Github Repo'](https://github.com/baello2020/Employee_Tracker)
-## User-Story
-As a business owner
-I want to be able to view and manage the departments, roles, and employees in my company
-So that I can organize and plan my business
+* ['Eat-Da-Burger - Github Repo'](https://github.com/baello2020/Eat-Da-Burger)
+
 ## Licence
 
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)

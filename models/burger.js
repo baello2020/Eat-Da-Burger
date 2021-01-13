@@ -22,13 +22,7 @@ const burger = {
             cb(res);
         })
     },
-    // Delete 
-    // Not working
-    // delete: function (id, cb) {
-    //     orm.deleteOne("burgers", id, function (res) {
-    //         cb(res);
-    //     })
-    // }
+
 };
 
 module.exports = burger;

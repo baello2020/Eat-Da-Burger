@@ -1,7 +1,19 @@
 /* Orlando Baello */
 /* Eat-Da-Burger! */
+/* body {
+    background: #020202;
+} */
+
 body {
-    background: #FFD700;
+  background: url("https://caterease.com/wp-content/uploads/2019/01/Final-Background-For-Login.png");
+  content: "";
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 70%;
 }
 
 li {
@@ -25,7 +37,7 @@ li {
   }
   
   h1 {
-      color: red;
+      color: rgb(255, 255, 255);
       padding-bottom: 10px;
   }
 
@@ -58,6 +70,3 @@ input {
   width: 70%;
 }
 
-/* .change-devoured {
-  margin-left: 60%;
-} */
