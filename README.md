@@ -20,12 +20,12 @@
 
 ## Installations
 
-* nmp init -y
-* nmp i inquirer 
+* npm init -y
+* npm i inquirer 
 * npm i mysql
-* nmp i express
-* nmp i express-handlebars
-* nmp i require-stack
+* npm i express
+* npm i express-handlebars
+* npm i require-stack
 
 ## Contributing
 A work in progress. And the possibilities are endless. <br> Please feel free to submit any code updates for review and acceptance.
